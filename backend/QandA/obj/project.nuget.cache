@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "6FIqYRR3G0aYW/1xaQtMmCwe4S2l6zV7ULudqHK4vdrZ+Rikk0cWV51Oe2lkF/poWleGASMDAH2w+BtqZoqsmA==",
+  "success": true,
+  "projectFilePath": "D:\\Question-and-Answer-App-ASP.NET-Core-5-and-React\\backend\\QandA\\QandA.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aguan\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\aguan\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\aguan\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\aguan\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\aguan\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\aguan\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
