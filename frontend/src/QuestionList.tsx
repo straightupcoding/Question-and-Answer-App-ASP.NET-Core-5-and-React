@@ -1,13 +1,19 @@
 import React from "react";
 import { QuestionData } from "./QuestionsData";
+import { Question } from "./Question";
 
 interface Props {
   data: QuestionData[];
+  renderItem?: (item: QuestionData) => JSX.Element;
 }
-export const QuestionList = (props: Props) => (
+
+export const QuestionList = ({ data, renderItem }: Props) => (
   <ul>
-    {props.data.map((question) => (
-      <li key={question.questionId}></li>
+    {data.map((question) => (
+      <li key={question.questionId}>
+        {renderItem ? renderItem(question) : <Question data={question} />}
+        <Question data={question} />
+      </li>
     ))}
   </ul>
 );
