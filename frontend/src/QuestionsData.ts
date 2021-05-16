@@ -6,13 +6,13 @@ export interface QuestionData {
   created: Date;
   answers: AnswerData[];
 }
-
 export interface AnswerData {
   answerId: number;
   content: string;
   userName: string;
   created: Date;
 }
+
 const questions: QuestionData[] = [
   {
     questionId: 1,

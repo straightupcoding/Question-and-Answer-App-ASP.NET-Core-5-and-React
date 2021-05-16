@@ -14,19 +14,22 @@ export const HomePage = () => {
       setQuestions(unansweredQuestions);
       setQuestionsLoading(false);
     };
-    
+    doGetUnansweredQuestions();
   }, []);
-  console.log("rendered");
+  const handleAskQuestionClick = () => {
+    console.log("TODO - move to the AskPage");
+  };
+
   return (
     <Page>
       <div>
-        <PageTitle> Unanswered Questions</PageTitle>
-        <button>Ask a question</button>
+        <PageTitle>Unanswered Questions</PageTitle>
+        <button onClick={handleAskQuestionClick}>Ask a question</button>
       </div>
       {questionsLoading ? (
         <div>Loading...</div>
       ) : (
-        <QuestionList data={questions || []} />
+        <QuestionList data={questions} />
       )}
     </Page>
   );

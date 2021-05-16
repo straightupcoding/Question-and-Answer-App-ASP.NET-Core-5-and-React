@@ -12,7 +12,6 @@ export const QuestionList = ({ data, renderItem }: Props) => (
     {data.map((question) => (
       <li key={question.questionId}>
         {renderItem ? renderItem(question) : <Question data={question} />}
-        <Question data={question} />
       </li>
     ))}
   </ul>
