@@ -41,22 +41,11 @@ export const AskPage = () => {
         <Fieldset disabled={formState.isSubmitting || successfullySubmitted}>
           <FieldContainer>
             <FieldLabel htmlFor="title">Title</FieldLabel>
-            <FieldInput
-              id="title"
-              name="title"
-              type="text"
-             
-            />
-            
+            <FieldInput id="title" name="title" type="text" />
           </FieldContainer>
           <FieldContainer>
             <FieldLabel htmlFor="content">Content</FieldLabel>
-            <FieldTextArea
-              id="content"
-              name="content"
-              
-            />
-            
+            <FieldTextArea id="content" name="content" />
           </FieldContainer>
           <FormButtonContainer>
             <PrimaryButton type="submit">Submit Your Question</PrimaryButton>
