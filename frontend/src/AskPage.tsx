@@ -20,11 +20,13 @@ type FormData = {
 };
 
 export const AskPage = () => {
+  const [successfullySubmitted, setSuccessfullySubmitted] =
+    React.useState(false);
+
   const { register, handleSubmit, formState } = useForm<FormData>({
     mode: "onBlur",
   });
-  const [successfullySubmitted, setSuccessfullySubmitted] =
-    React.useState(false);
+
   const submitForm = async (data: FormData) => {
     const result = await postQuestion({
       title: data.title,
